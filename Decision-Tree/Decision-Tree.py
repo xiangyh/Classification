@@ -48,9 +48,9 @@ if __name__ == "__main__":
         y_hat = dt_dtc.predict(x)
         y = y.reshape(-1)
         c = np.count_nonzero(y_hat == y)
-        # print 'feature：  ', iris_feature[pair[0]], ' + ', iris_feature[pair[1]],
-        # print '\t correct predcted：', c,
-        # print '\t accuracy: %.2f%%' % (100 * float(c) / float(len(y)))
+        print 'feature：  ', iris_feature[pair[0]], ' + ', iris_feature[pair[1]],
+        print '\t correct predicted：', c,
+        print '\t accuracy: %.2f%%' % (100 * float(c) / float(len(y)))
 
         # plot
         y_hat = dt_dtc.predict(x_test)  # prediction
@@ -66,3 +66,6 @@ if __name__ == "__main__":
         plt.axis('tight')
     plt.suptitle(u'Binary result of iris data', fontsize=20)
     plt.show()
+
+
+
