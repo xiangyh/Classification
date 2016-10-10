@@ -10,3 +10,13 @@
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/15187579/19224262/3d5453f4-8e37-11e6-8310-81d186d532d8.png" />
 </p>
+
+
+<p>
+feature：   sepal_len  +  sepal_width 	 correct predicted： 123 	 accuracy: 82.00%<br/>
+feature：   sepal_len  +  petal_len 	 correct predicted： 145 	 accuracy: 96.67%<br/>
+feature：   sepal_len  +  petal_width 	 correct predicted： 144 	 accuracy: 96.00%<br/>
+feature：   sepal_width  +  petal_len 	 correct predicted： 143 	 accuracy: 95.33%<br/>
+feature：   sepal_width  +  petal_width 	 correct predicted： 145 	 accuracy: 96.67% <br/>
+feature：   petal_len  +  petal_width 	 correct predicted： 147 	 accuracy: 98.00% <br/>
+<p>
