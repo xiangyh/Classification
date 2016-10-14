@@ -24,7 +24,7 @@ if __name__ == "__main__":
     data_test = xgb.DMatrix(path + '8.agaricus_test.txt')
 
     #
-    # param = {'max_depth': 2, 'eta': 1, 'silent': 1, 'objective': 'binary:logistic'} # logitraw
+    # param = {'max_depth': 2, 'eta': 1, 'silent': 1, 'objective': 'binary:logistic'} 
     param = {'max_depth': 2, 'eta': 1, 'silent': 1}
     watchlist = [(data_test, 'eval'), (data_train, 'train')]
     n_round = 2
