@@ -62,4 +62,3 @@ if __name__ == "__main__":
         plt.grid()
     plt.suptitle(u'SVM classification with varying parameters', fontsize=18)
     plt.show()
-EMPTY
